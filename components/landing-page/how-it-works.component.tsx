@@ -2,28 +2,28 @@ import {ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon} from "
 
 const features = [
   {
-    name: "Benefit #1",
+    name: "Vetted Opportunities",
     description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+      "Every investment opportunity undergoes rigorous due diligence. We evaluate sponsors, analyze markets, and review financials to present only the best deals.",
+    icon: FingerPrintIcon,
+  },
+  {
+    name: "Lower Minimums",
+    description:
+      "Access institutional-quality real estate investments typically reserved for large investors. Start investing with minimums as low as $5,000.",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "Benefit #2",
+    name: "Full Transparency",
     description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+      "Track your investments in real-time. Access detailed offering documents, financial reports, and performance updates through your secure dashboard.",
     icon: LockClosedIcon,
   },
   {
-    name: "Benefit #3",
+    name: "Passive Income",
     description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+      "Earn regular distributions from cash-flowing properties. Build wealth through appreciation while experienced operators handle day-to-day management.",
     icon: ArrowPathIcon,
-  },
-  {
-    name: "Benefit #4",
-    description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
-    icon: FingerPrintIcon,
   },
 ]
 
@@ -36,8 +36,9 @@ export default function HowItWorks() {
             How It Works
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+            BlackPlum simplifies real estate investing for accredited investors. 
+            Browse vetted opportunities, invest online, and track your portfolio performance 
+            all in one secure platform.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

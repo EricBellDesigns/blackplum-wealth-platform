@@ -22,13 +22,13 @@ export default function Hero() {
             className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
             <h1
               className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
-              We’re changing the way people invest
+              Exclusive Access to Premium Real Estate Investments
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
               <p className="text-lg leading-8 text-gray-600">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo.
+                BlackPlum connects accredited investors with carefully vetted real estate opportunities. 
+                Access institutional-quality deals, enjoy lower minimums, and build wealth through 
+                diversified real estate investments backed by experienced operators.
               </p>
               <div className="mt-10 flex items-center gap-x-8">
                 <a

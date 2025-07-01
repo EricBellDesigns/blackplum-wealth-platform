@@ -13,8 +13,9 @@ interface ProfileMenuProps {
 }
 
 const userNavigation = [
-  {name: "Your profile", href: "#"},
-  {name: "Settings", href: "#"}
+  // TODO: Create these pages in Phase 3
+  // {name: "Your profile", href: "/profile"},
+  // {name: "Settings", href: "/settings"}
 ];
 
 function classNames(...classes) {
