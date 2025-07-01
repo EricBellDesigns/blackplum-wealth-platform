@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+/* Customize Carousel indicator size and opacity */
+.carousel .control-dots .dot {
+  width: 12px !important;
+  height: 12px !important;
+  opacity: .5;
+}
+
+/* Customize Carousel navigation button width */
+.carousel.carousel-slider .control-arrow {
+  width: 55px !important;
+}
+
+/* Customize Carousel previous and next buttons */
+.carousel .control-prev.control-arrow:before {
+  border-right: 15px solid #fff !important;
+  border-top: 10px solid transparent !important;
+  border-bottom: 10px solid transparent !important;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 15px solid #fff !important;
+  border-top: 10px solid transparent !important;
+  border-bottom: 10px solid transparent !important;
+}
+
+/* Remove unwanted carousel bottom margin */
+.carousel .thumbs-wrapper {
+  margin: 0 !important;
+}
